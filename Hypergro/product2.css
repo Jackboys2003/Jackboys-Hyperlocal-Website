@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.top-box {
+    width: 98%;
+    padding: 15px;
+    background-color: #81c405; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.cart img {
+    max-width: 40px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search-bar {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#searchBar {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-card {
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 70%;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-details img {
+    max-width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.price-quantity-box {
+    flex: 1;
+    padding: 0 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.store-locator {
+    width: 28%;
+    margin-left: 10px;
+}
+
+#map {
+    height: 300px;
+    border: 1px solid #ccc;
+}

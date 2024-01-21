@@ -1,0 +1,54 @@
+/* Add this CSS to style the ven class */
+.ven {
+    margin: 20px auto; /* Center the .ven elements */
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Limit width for better readability */
+}
+
+.ven h2 {
+    color: #333;
+}
+
+.ven ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ven li {
+    margin-bottom: 10px;
+}
+
+.ven form {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.ven .but {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.ven .but:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+    .ven {
+        width: 90%; 
+    }
+    .ven .but {
+        padding: 5.12px 7.68px;
+    }
+}
